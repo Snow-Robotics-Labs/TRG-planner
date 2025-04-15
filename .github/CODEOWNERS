@@ -11,3 +11,5 @@
 LICENSE @dklee98
 Makefile @dklee98
 .github/PULL_REQUEST_TEMPLATE.md @dklee98 @anahrendra
+pipelines/ros2/launch/trg_planner_wMap.py @lrrghdrh
+pipelines/ros2/CMakeLists.txt @lrrghdrh
