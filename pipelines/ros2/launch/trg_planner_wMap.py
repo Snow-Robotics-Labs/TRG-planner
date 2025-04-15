@@ -1,5 +1,3 @@
-import os
-
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
@@ -26,7 +24,7 @@ def generate_launch_description():
         package_share_directory, '/config/', 'ros2_params.yaml'
     ]
     rviz_config_file = [
-        os.path.join(os.getcwd(), 'src/TRG-planner/pipelines/ros2/rviz/'),
+        package_share_directory, '/rviz/',
         LaunchConfiguration('map'), '.rviz'
     ]
 
